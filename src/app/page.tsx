@@ -399,10 +399,10 @@ export default function Home() {
                   Email
                 </h4>
                 <a
-                  href="mailto:info@p95consulting.com"
+                  href="mailto:hr@p95consulting.com"
                   className="mt-1 block text-blue-500 transition-colors hover:text-blue-600"
                 >
-                  info@p95consulting.com
+                  hr@p95consulting.com
                 </a>
               </div>
               <div>
