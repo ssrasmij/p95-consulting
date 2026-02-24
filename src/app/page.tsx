@@ -431,12 +431,34 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 bg-slate-50 py-8">
-        <div className="mx-auto max-w-7xl px-6 text-center">
-          <p className="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} P95 Consulting LLC. All rights
-            reserved.
-          </p>
+      <footer className="border-t border-slate-200 bg-slate-50 py-10">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="text-center">
+            <p className="text-sm text-slate-500">
+              &copy; {new Date().getFullYear()} P95 Consulting LLC. All rights
+              reserved.
+            </p>
+            <p className="mt-2 text-xs text-slate-400">
+              P95 Consulting LLC is a registered limited liability company in
+              the state of Pennsylvania. P95 Consulting LLC is not affiliated
+              with any other similarly named entities.
+            </p>
+            <div className="mt-4 flex items-center justify-center gap-4 text-xs text-slate-400">
+              <a
+                href="/terms"
+                className="transition-colors hover:text-slate-600"
+              >
+                Terms of Service
+              </a>
+              <span>|</span>
+              <a
+                href="/privacy"
+                className="transition-colors hover:text-slate-600"
+              >
+                Privacy Policy
+              </a>
+            </div>
+          </div>
         </div>
       </footer>
     </>
